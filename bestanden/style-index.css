@@ -1,0 +1,21 @@
+*{ box-sizing: border-box;}
+div#wrapper,footer,section{ margin:auto; width: 1000px; padding: 20px;background-color: deeppink;}
+body{padding-left: 150px; font-family: sans-serif;;
+ background-repeat:repeat; }
+
+.balk{ width: 1200px; height: 60px; background-color: #FFB6C1; }
+
+.button1{text-align: center; background-color: lightblue;  display: inline-block; margin-left:110px;
+ margin-top: 10px;  height: 40px; width: 110px;  border-style: dashed; border-color: dodgerblue}
+
+.politie-img{width: 350px; height: 250px; }
+.politie-text{width: 300px;  }
+
+.aanrijding-img{width: 350px; height: 250px; margin-left: 420px; margin-top: -450px; position: absolute; }
+ .nieuws-2{margin-left: 440px; width: 300px; margin-top:-890px; position:absolute;  }
+
+ .bowling-img{width: 350px; height: 250px;margin-left: 865px; margin-top: -700px}
+ .nieuws-3{ width: 300px; margin-top: -890px; margin-left: 880px; position:absolute;}
+
+.text{font-family: "Lucida Sans"; size: 50px; }
+.footer{width: 1200px; height: 200px; background-color:dodgerblue;}
