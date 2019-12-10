@@ -1,0 +1,11 @@
+body{padding-left: 150px; font-family: sans-serif; }
+.balk{ width: 1200px; height: 60px; background-color: #FFB6C1; }
+.button1{text-align: center; background-color: lightgray; border: none; display: inline-block; margin-left:110px; margin-top: 10px;  height: 40px; width: 110px;  display: marker; }
+
+.politie-img{width: 350px; height: 250px; }
+.politie-text{width: 300px; }
+
+.aanrijding-img{width: 350px; height: 250px; margin-left: 400px; margin-top: 300px;}
+ .nieuws-2{margin-left: 400px; width: 300px; margin-top:-950px; position: absolute;}
+.text{font-family: "Lucida Sans"; size: 50px; }
+.footer{width: 1200px; height: 200px; background-color:grey;}
