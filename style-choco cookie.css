@@ -1,0 +1,7 @@
+body{padding-left: 150px;font-family: sans-serif;}
+.beschrijving{width: 300px;}
+.balk{width: 1200px; height: 40px; background-color:lightpink;}
+.footer{width: 1200px; height: 200px; background-color:grey; margin-top:200px }
+.choco-cookie-img{width: 600px; height: 400px; padding-left: 600px; top: 400px;position: absolute;}
+.cookie-recipe-img{width: 600px; height: 400px;position: absolute;
+padding-left: 600px; top: 850px; }

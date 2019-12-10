@@ -1,0 +1,7 @@
+body{padding-left: 150px;font-family: sans-serif;}
+.balk{width: 1200px; height: 40px; background-color: #ffb6c1;}
+.beschrijving{width: 300px; font-family: sans-serif}
+.footer{width: 1200px; height: 200px; background-color:grey;}
+.kebab-img-1{width: 600px; height: 400px; padding-left: 600px; top: 400px;position: absolute;}
+.kebab-recipe-img{width: 600px; height: 400px;position: absolute;
+  padding-left: 600px; top: 850px; border-color:#FFB6C1; border-width: 12px; border: 2px;}
