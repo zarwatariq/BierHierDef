@@ -1,0 +1,43 @@
+/*Body layout */
+* {
+    box-sizing: border-box;
+}
+ body{
+
+ }
+
+div#wrapper , footer , section{
+    margin: auto;
+    width: 1000px;
+    background-color: white;
+    padding: 20px;
+}
+nav {
+    background-color: pink;
+    padding: 10px;
+    margin: auto;
+    width: 1000px
+}
+
+nav a {
+    color: deeppink;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 30px;
+    border-right: 2px;
+}
+
+/*Section1 */
+
+/*Section2 */
+
+/*Footer*/
+footer{
+    background-color:grey;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
