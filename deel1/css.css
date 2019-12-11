@@ -1,6 +1,7 @@
 /*Body layout */
 * {
     box-sizing: border-box;
+
 }
  body{
 
@@ -28,7 +29,9 @@ nav a {
 }
 
 /*Section1 */
+section{
 
+}
 /*Section2 */
 
 /*Footer*/
