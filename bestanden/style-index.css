@@ -86,6 +86,7 @@ footer{
 
 footer a {
  color: white;
+ text-decoration: none;
 }
 /* slidewshow*/
 .slideshow {
