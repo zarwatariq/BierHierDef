@@ -47,8 +47,12 @@ nav a {
 
 /*Section1 */
 section{
- background-color: white;
+ background-color: lightblue;
 
+}
+.text-link{
+ text-decoration: none;
+ color: red;
 }
 /* choco cookie recept images*/
 .img-recepten{
@@ -57,12 +61,52 @@ section{
 .column{
  margin-top: 200px;
  float: right;
+}
+.cookie-img-style.img{
+ border-color: black;
+}
+.cookie-img-style{
+
+ padding-left: 500px;
+ margin-top: -900px;
+ padding-bottom: 300px;
 
 }
-.text-lenght{
+.biryani-img-style{
+ padding-left: 500px;
+ margin-top: -100px;
+ padding-bottom: 150px;
+}
+.biryani-img-style.img{
+ border-radius: 30px;
+ border-collapse: collapse;
+}
+.biryani{
+ padding-left: 700px;
+ margin-top: -1300px;
+ padding-bottom: 130px;
+ border-radius: 30px;
+}
+
+.text-lenght {
  width: 430px;
 }
+.kebab-img{
+margin-left:700px;
+ margin-top: -1000px;
+ padding-bottom: 600px;
+}
 
+.kebab-img-style{
+ padding-left: 500px;
+ margin-top: -200px;
+ padding-bottom: 300px;
+}
+.kebab-recipe-img{
+ padding-left: 500px;
+ margin-top: -900px;
+ padding-bottom: 300px;
+}
 /* header image*/
 
 
@@ -73,7 +117,7 @@ section{
  font-size: 700%;
  position: initial;
  top: 10%;
- padding-left:550px;
+
 }
 
 
