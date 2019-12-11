@@ -1,21 +1,118 @@
-*{ box-sizing: border-box;}
-div#wrapper,footer,section{ margin:auto; width: 1000px; padding: 20px;background-color: deeppink;}
-body{padding-left: 150px; font-family: sans-serif;;
- background-repeat:repeat; }
 
-.balk{ width: 1200px; height: 60px; background-color: #FFB6C1; }
+/*Body layout */
+* {
+ box-sizing: border-box;
+}
+body{
+ font-family: sans-serif;;
+ background-repeat:repeat;
+ line-height: 24px;
+}
+img.article {
+ margin-top: 2px;
+ margin-bottom: 20px;
+ width: 303px;
+ vertical-align: top;
+}
+/*sectie article*/
+article {
+ display: inline-block;
+ width: 33%;
+ padding-right: 15px;
+ vertical-align: top;
 
-.button1{text-align: center; background-color: lightblue;  display: inline-block; margin-left:110px;
- margin-top: 10px;  height: 40px; width: 110px;  border-style: dashed; border-color: dodgerblue}
+}
 
-.politie-img{width: 350px; height: 250px; }
-.politie-text{width: 300px;  }
 
-.aanrijding-img{width: 350px; height: 250px; margin-left: 420px; margin-top: -450px; position: absolute; }
- .nieuws-2{margin-left: 440px; width: 300px; margin-top:-890px; position:absolute;  }
+div#wrapper , footer , section{
+ margin: auto;
+ width: 1000px;
+ background-color: white;
+ padding: 20px;
+}
+nav {
+ background-color: pink;
+ padding: 10px;
+ margin: auto;
+ width: 1000px
+}
 
- .bowling-img{width: 350px; height: 250px;margin-left: 865px; margin-top: -700px}
- .nieuws-3{ width: 300px; margin-top: -890px; margin-left: 880px; position:absolute;}
+nav a {
+ color: deeppink;
+ font-weight: bold;
+ text-decoration: none;
+ padding-right: 30px;
+ border-right: 2px;
+}
 
-.text{font-family: "Lucida Sans"; size: 50px; }
-.footer{width: 1200px; height: 200px; background-color:dodgerblue;}
+/*Section1 */
+section{
+ background-color: white;
+
+}
+/* choco cookie recept images*/
+.img-recepten{
+ margin-top: -400px;
+}
+.column{
+ margin-top: 200px;
+ float: right;
+
+}
+.text-lenght{
+ width: 430px;
+}
+
+/* header image*/
+
+
+.text-header{
+ color: black;
+ width: auto;
+ height: auto;
+ font-size: 700%;
+ position: initial;
+ top: 10%;
+ padding-left:550px;
+}
+
+
+
+/*Footer*/
+footer{
+ background-color:grey;
+ color: white;
+}
+
+footer a {
+ color: white;
+}
+/* slidewshow*/
+.slideshow {
+ width:100%;
+ height:auto;
+margin-top: -750px;
+ padding-left: 630px;
+ box-sizing:border-box;
+ position:absolute;
+}
+
+.slideshow img {
+ position:absolute;
+ animation:slideshow 20s infinite;
+ opacity:0;
+
+}
+
+@keyframes slideshow {
+ 25%{opacity:1;
+ }
+ 45%{
+  opacity:0;
+ }
+}
+
+.slideshow img:nth-child(4){animation-delay:0s;}
+.slideshow img:nth-child(3){animation-delay:5s;}
+.slideshow img:nth-child(2){animation-delay:10s;}
+.slideshow img:nth-child(1){animation-delay:15s;}
